@@ -4,3 +4,7 @@ font-family: 'Bakbak One', cursive;
 p, .p-bold {
 font-family: 'Inter', sans-serif;
 }
+
+.p-bold {
+    font-weight: bold;
+    }
