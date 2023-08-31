@@ -1,10 +1,95 @@
-h1, h2, h3 {
-font-family: 'Bakbak One', cursive;
+/*
+Fordeling CSS
+1.  Variables
+2.  Global
+3.  Header
+4.  Footer
+5.  Typography
+6.  CTA
+7.  Color
+8.  Forms
+9.  Hamburger
+10. Home
+11. Visit
+12. Explore
+13. Learn
+14. Tickets
+16. media
+*/
+
+/* 1. Variables */
+
+:root {
+    --light-orange: #F9A26C; 
+    --dark-orange: #F26627;
+    --grey: #EFEEEE;
+    --green: #C5DC57;
+    --light-blue: #9BD7D1;
+    --mediuem-blue: #325D79;
+    --dark-blue: #19263D;
+    --black: #0000;
+    --white: #FFFF;
+    --purple: #5931AD;
+    }
+
+/* 2. Global */
+
+body {
+    margin: 0;
+    }
+
+main {
+    padding-left: 30px;
+    max-width: 1400px;
+    }
+
+a {
+    text-decoration: none;
+    }
+
+h1, 
+h2,
+h3 {
+font-family: 'Bakbak One', Arial, Helvetica, sans-serif;
+font-size: 58px;
 }
-p, .p-bold {
-font-family: 'Inter', sans-serif;
+
+p, 
+.p-bold, 
+nav {
+font-family: 'Inter', Arial, Helvetica, sans-serif;
 }
 
 .p-bold {
     font-weight: bold;
+    }
+
+/* 3. Header */
+
+header {
+    background-color: var(--light-orange);
+    text-transform: uppercase;
+    font-size: 30px;
+    }
+
+.header-content {
+    margin: 0px 30px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+
+nav {
+    
+    }
+
+.logo-header {
+    
+    }
+
+/*9. hamburger */
+
+.hamburger-icon {
+        display: none;
     }
