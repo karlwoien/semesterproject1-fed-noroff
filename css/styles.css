@@ -25,7 +25,7 @@ Fordeling CSS
     --grey: #EFEEEE;
     --green: #C5DC57;
     --light-blue: #9BD7D1;
-    --mediuem-blue: #325D79;
+    --medium-blue: #325D79;
     --dark-blue: #19263D;
     --black: #0000;
     --white: #FFFF;
@@ -88,8 +88,34 @@ nav {
     
     }
 
+/* 4. Footer */
+
+footer {
+    background-color: var(--medium-blue);
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 /*9. hamburger */
 
 .hamburger-icon {
         display: none;
     }
+
+/* 10. Home */
+
+.intro-home {
+    background-color: var(--dark-orange);
+}
+
+.special-events {
+    background-color: var(--light-blue);
+}
+
+.explore-universe {
+    background-color: var(--grey);
+}
