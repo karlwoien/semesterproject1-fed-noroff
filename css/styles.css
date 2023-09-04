@@ -177,7 +177,7 @@ footer {
 
 .special-events {
     background-color: var(--light-blue);
-    padding-top: 10vh;
+    padding-top: 50px;
     display: flex;
     justify-content: space-between;
     padding-bottom: 10vh;
@@ -218,6 +218,8 @@ span.orange {
     background-color: var(--grey);
     min-height: 70vh;
     text-align: center;
+    padding-top: 50px;
+    padding-bottom: 120px;
 }
 
 .explore-universe h2{
@@ -227,11 +229,15 @@ span.orange {
 .explore-categories {
     display: flex;
     justify-content: space-between;
-    padding: 0px 30px 50px;
+    padding: 50px 30px 80px;
 }
 
 .explore-container {
     position: relative;
+}
+
+.explore-container img {
+    height: 400px;
 }
 
 .explore-container .p-bold {
