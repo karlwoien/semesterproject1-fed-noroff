@@ -285,3 +285,29 @@ span.orange {
 .information-card {
     width: 250px;
 }
+
+/* 12. Explore */
+
+.explore {
+    background-color: var(--dark-blue);
+    padding-top: 10px;
+    padding-bottom: 80px;
+}
+
+.intro-explore {
+    margin: 30px;
+    display: flex;
+    background-color: var(--grey);
+    color: var(--dark-orange);
+}
+
+.explore-card {
+    margin: 30px;
+    background-color: var(--grey);
+    padding-top: 10px;
+    display: flex;
+    color: var(--dark-blue);
+    width: 600px;
+}
+
+/* 13. Learn */
