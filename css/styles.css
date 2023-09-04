@@ -304,6 +304,7 @@ span.orange {
 .explore-card {
     margin: 30px;
     background-color: var(--grey);
+    border-radius: 10px;
     padding-top: 10px;
     display: flex;
     color: var(--dark-blue);
@@ -311,3 +312,20 @@ span.orange {
 }
 
 /* 13. Learn */
+.learn {
+    background-color: var(--light-blue);
+    padding-top: 10px;
+    padding-bottom: 80px;
+}
+
+.learn-intro {
+    margin: 30px;
+    background-color: var(--grey);
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 80px;
+}
+
+.learn-intro h1{
+   text-align: center;
+}
