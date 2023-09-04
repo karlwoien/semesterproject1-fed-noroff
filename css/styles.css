@@ -38,13 +38,9 @@ body {
     margin: 0;
     }
 
-main {
-    padding-left: 30px;
-    max-width: 1400px;
-    }
-
 a {
     text-decoration: none;
+    color: var(--dark-blue);
     }
 
 h1, 
@@ -73,15 +69,19 @@ header {
     }
 
 .header-content {
-    margin: 0px 30px;
-    padding-bottom: 20px;
+    padding: 10px 30px 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    color: var(--dark-blue);
     }
 
 nav {
     
+    }
+
+nav a:hover{
+    text-decoration: underline;
     }
 
 .logo-header {
@@ -98,6 +98,41 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: var(--grey);
+}
+
+/*6 cta */
+
+.button-purple {
+    border: 0;
+    padding: 10px 15px;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+    background-color: var(--purple);
+}
+
+.button-purple:hover {
+    background-color: var(--grey);
+    color: var(--purple);
+    text-decoration: none;
+}
+
+.button-white-purple {
+    border: 0;
+    padding: 10px 15px;
+    font-size: 22px;
+    font-family: 'Inter';
+    text-align: center;
+    color: var(--purple);
+    border-radius: 10px;
+    background-color: var(--grey);
+}
+
+.button-white-purple:hover {
+    background-color: var(--purple);
+    color: var(--grey);
+    text-decoration: none;
 }
 
 /*9. hamburger */
@@ -110,10 +145,19 @@ footer {
 
 .intro-home {
     background-color: var(--dark-orange);
+    color: var(--grey);
+    min-height: 70vh;
+    text-align: center;
+    text-transform: uppercase;
+}
+.intro-home-h1 {
+    font-size: 72px;
 }
 
 .special-events {
     background-color: var(--light-blue);
+    display: flex;
+    padding-top: 10vh;
 }
 
 .explore-universe {
