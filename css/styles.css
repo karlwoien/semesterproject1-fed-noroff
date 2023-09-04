@@ -199,6 +199,11 @@ span.orange {
     padding: 0px 30px;
 }
 
+.event-wrapper:hover {
+    border: 1px solid;
+    border-radius: 10px;
+}
+
 .event-wrapper img {
     width: 420px;
     height: 560px;
@@ -234,6 +239,11 @@ span.orange {
 
 .explore-container {
     position: relative;
+}
+
+.explore-container:hover {
+    border: 2px solid;
+    border-radius: 10px;
 }
 
 .explore-container img {
