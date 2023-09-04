@@ -92,6 +92,8 @@ nav a:hover{
 
 footer {
     background-color: var(--medium-blue);
+    min-height: 250px;
+    padding-top: 50px;
 }
 
 .footer-content {
@@ -104,7 +106,7 @@ footer {
 /*6 cta */
 
 .button-purple {
-    border: 0;
+    
     padding: 10px 15px;
     text-align: center;
     color: #fff;
@@ -116,10 +118,10 @@ footer {
     background-color: var(--grey);
     color: var(--purple);
     text-decoration: none;
+    border: 1px solid;
 }
 
 .button-white-purple {
-    border: 0;
     padding: 10px 15px;
     font-size: 22px;
     font-family: 'Inter';
@@ -133,6 +135,24 @@ footer {
     background-color: var(--purple);
     color: var(--grey);
     text-decoration: none;
+}
+
+.button-orange {
+    padding: 10px 15px;
+    font-size: 22px;
+    font-family: 'Inter';
+    text-align: center;
+    color: var(--grey);
+    border-radius: 10px;
+    background-color: var(--dark-orange);
+    text-transform: uppercase;
+}
+
+.button-orange:hover {
+    background-color: var(--grey);
+    color: var(--dark-orange);
+    text-decoration: none;
+    border: 1px solid black;
 }
 
 /*9. hamburger */
@@ -156,10 +176,61 @@ footer {
 
 .special-events {
     background-color: var(--light-blue);
-    display: flex;
     padding-top: 10vh;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10vh;
+}
+
+.event-header {
+    position: absolute;
+    left: 500px; /*løses på en annen måte?*/
+    color: var(--grey);
+}
+
+.event-wrapper {
+    width: 420px;
+    height: 860px;
+    padding: 0px 30px;
+}
+
+.event-wrapper img {
+    width: 420px;
+    height: 560px;
+}
+
+.event-text {
+    padding-left: 10px;
+}
+
+.p-book {
+    color: var(--purple);
+    text-transform: uppercase;
+    text-align: right;
 }
 
 .explore-universe {
     background-color: var(--grey);
+    min-height: 70vh;
+    text-align: center;
+}
+
+.explore-universe h2{
+    color: var(--medium-blue);
+}
+
+.explore-categories {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px 50px;
+}
+
+.explore-container {
+    position: relative;
+}
+
+.explore-container .p-bold {
+    color: var(--grey);
+    position: absolute;
+    bottom: 10px;
 }
