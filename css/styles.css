@@ -76,10 +76,6 @@ header {
     color: var(--dark-blue);
     }
 
-nav {
-    
-    }
-
 nav a:hover{
     text-decoration: underline;
     }
@@ -103,10 +99,14 @@ footer {
     color: var(--grey);
 }
 
+.text-footer ul {
+    list-style: none;
+}
+
+
 /*6 cta */
 
 .button-purple {
-    
     padding: 10px 15px;
     text-align: center;
     color: #fff;
@@ -169,6 +169,7 @@ footer {
     min-height: 70vh;
     text-align: center;
     text-transform: uppercase;
+    padding-top: 50px;
 }
 .intro-home-h1 {
     font-size: 72px;
@@ -184,8 +185,12 @@ footer {
 
 .event-header {
     position: absolute;
-    left: 500px; /*løses på en annen måte?*/
+    left: 400px; /*løses på en annen måte!*/
     color: var(--grey);
+}
+
+span.orange {
+    color: var(--dark-orange);
 }
 
 .event-wrapper {
