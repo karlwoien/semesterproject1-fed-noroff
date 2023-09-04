@@ -255,3 +255,33 @@ span.orange {
     position: absolute;
     bottom: 10px;
 }
+
+/* 11. Visit */
+
+.visit {
+    background-color: var(--light-blue);
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.visit h1 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.visit-container {
+    margin: 30px;
+    background-color: var(--dark-orange);
+    color: var(--grey);
+    padding-bottom: 80px;
+}
+
+.visit-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.information-card {
+    width: 250px;
+}
