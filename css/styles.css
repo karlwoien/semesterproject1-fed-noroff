@@ -60,6 +60,11 @@ font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-weight: bold;
     }
 
+.p-bold-underline {
+        font-weight: bold;
+        text-decoration: underline;
+        }
+
 /* 3. Header */
 
 header {
@@ -155,6 +160,25 @@ footer {
     border: 1px solid black;
 }
 
+.button-blue {
+    padding: 10px 15px;
+    font-size: 22px;
+    font-family: 'Inter';
+    text-align: center;
+    color: var(--dark-blue);
+    border-radius: 10px;
+    background-color: var(--grey);
+    text-transform: uppercase;
+}
+
+.button-blue:hover {
+    background-color: var(--grey);
+    color: var(--dark-orange);
+    text-decoration: none;
+    border: 1px solid black;
+}
+
+
 /*9. hamburger */
 
 .hamburger-icon {
@@ -196,11 +220,12 @@ span.orange {
 .event-wrapper {
     width: 420px;
     height: 860px;
-    padding: 0px 30px;
+    border: 1px solid;
+    border-radius: 10px;
 }
 
 .event-wrapper:hover {
-    border: 1px solid;
+    border: 2px solid;
     border-radius: 10px;
 }
 
@@ -211,6 +236,7 @@ span.orange {
 
 .event-text {
     padding-left: 10px;
+    padding-right: 10px;
 }
 
 .p-book {
@@ -273,18 +299,32 @@ span.orange {
     margin: 30px;
     background-color: var(--dark-orange);
     color: var(--grey);
-    padding-bottom: 80px;
+    border-radius: 10px;
+    padding-bottom: 90px;
 }
 
 .visit-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr)); /*inspired by: https://css-tricks.com/look-ma-no-media-queries-responsive-layouts-using-css-grid/*/
+    padding-left: 100px;
 }
 
 .information-card {
-    width: 250px;
+    height: 200px;
 }
+
+.icon-visit{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.text-visit{
+    display: inline-block;
+    padding-left: 20px;
+    max-width: 250px;
+}
+
 
 /* 12. Explore */
 
