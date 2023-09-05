@@ -256,7 +256,6 @@ span.orange {
 
 .explore-universe {
     background-color: var(--grey);
-    min-height: 70vh;
     text-align: center;
     padding-top: 50px;
     padding-bottom: 120px;
