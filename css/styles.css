@@ -36,12 +36,12 @@ Fordeling CSS
 
 body {
     margin: 0;
-    }
+}
 
 a {
     text-decoration: none;
     color: var(--dark-blue);
-    }
+}
 
 h1, 
 h2,
@@ -201,10 +201,9 @@ footer {
 
 .special-events {
     background-color: var(--light-blue);
-    padding-top: 50px;
     display: flex;
-    justify-content: space-between;
-    padding-bottom: 10vh;
+    justify-content: space-around;
+    padding: 50px 30px 100px;
 }
 
 .event-header {
@@ -237,12 +236,22 @@ span.orange {
 .event-text {
     padding-left: 10px;
     padding-right: 10px;
+    height: 220px;
+}
+
+.event-text p{
+    font-size: 18px;
+}
+
+.event-text .p-bold{
+    font-size: 24px;
 }
 
 .p-book {
     color: var(--purple);
     text-transform: uppercase;
     text-align: right;
+    padding-right: 10px;
 }
 
 .explore-universe {
