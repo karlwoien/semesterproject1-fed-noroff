@@ -198,7 +198,7 @@ address,
 .intro-home {
     background-color: var(--dark-orange);
     color: var(--grey);
-    min-height: 70vh;
+    min-height: 80vh;
     text-align: center;
     text-transform: uppercase;
     padding-top: 50px;
@@ -281,11 +281,12 @@ span.orange {
     gap: 20px;
     justify-content: space-around;
     padding: 0px 30px 80px;
-    flex-shrink: 1;
+    
 }
 
 .explore-container {
     position: relative;
+    height: 400px;
 }
 
 .explore-container:hover {
@@ -302,6 +303,9 @@ span.orange {
     position: absolute;
     bottom: 10px;
 }
+
+
+
 
 /* 11. Visit */
 
@@ -351,26 +355,61 @@ span.orange {
 
 .explore {
     background-color: var(--dark-blue);
-    padding-top: 10px;
-    padding-bottom: 80px;
+    padding: 30px 30px 80px;
 }
 
 .intro-explore {
-    margin: 30px;
-    display: flex;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     background-color: var(--grey);
     color: var(--dark-orange);
+    border-radius: 10px;
+    gap: 20px;
+    align-items: center;
 }
 
-.explore-card {
-    margin: 30px;
+.picture-explore img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.text-explore {
+    text-align: center;
+}
+
+.exhibit-flex {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.exhibit-card {
     background-color: var(--grey);
     border-radius: 10px;
-    padding-top: 10px;
-    display: flex;
     color: var(--dark-blue);
-    width: 600px;
+    min-height: 100%;
 }
+
+.exhibit-picture img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.exhibit-text {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.view-explore {
+    padding-top: 40px;
+    text-align: center;
+}
+
 
 /* 13. Learn */
 .learn {
