@@ -98,7 +98,7 @@ nav a:hover{
 
 footer {
     background-color: var(--medium-blue);
-    padding: 50px 30px 100px;
+    padding: 50px 0px 100px 30px;
 }
 
 .footer-content {
@@ -107,6 +107,14 @@ footer {
     gap: 40px;
     justify-content: space-between;
     color: var(--grey);
+}
+
+address,
+.opening-hours,
+.logo-footer,
+.some-footer {
+    width: 220px;
+    height: 130px;
 }
 
 /*6 cta */
