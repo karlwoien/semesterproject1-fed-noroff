@@ -52,7 +52,8 @@ font-size: 58px;
 
 p, 
 .p-bold, 
-nav {
+nav, 
+address {
 font-family: 'Inter', Arial, Helvetica, sans-serif;
 }
 
@@ -64,6 +65,10 @@ font-family: 'Inter', Arial, Helvetica, sans-serif;
         font-weight: bold;
         text-decoration: underline;
         }
+
+address {
+    font-style: normal;
+}
 
 /* 3. Header */
 
@@ -93,21 +98,16 @@ nav a:hover{
 
 footer {
     background-color: var(--medium-blue);
-    min-height: 250px;
-    padding-top: 50px;
+    padding: 50px 30px 100px;
 }
 
 .footer-content {
     display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
     justify-content: space-between;
-    align-items: center;
     color: var(--grey);
 }
-
-.text-footer ul {
-    list-style: none;
-}
-
 
 /*6 cta */
 
