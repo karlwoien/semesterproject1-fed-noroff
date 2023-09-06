@@ -202,13 +202,15 @@ footer {
 .special-events {
     background-color: var(--light-blue);
     display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
     justify-content: space-around;
     padding: 50px 30px 100px;
 }
 
 .event-header {
     position: absolute;
-    left: 400px; /*løses på en annen måte!*/
+    left: 400px; /*løses på en annen måte!?*/
     color: var(--grey);
 }
 
@@ -267,8 +269,11 @@ span.orange {
 
 .explore-categories {
     display: flex;
-    justify-content: space-between;
-    padding: 50px 30px 80px;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    padding: 0px 30px 80px;
+    flex-shrink: 1;
 }
 
 .explore-container {
