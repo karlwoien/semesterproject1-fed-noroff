@@ -74,6 +74,10 @@ address {
     font-style: normal;
 }
 
+.hidden-text {
+    display: none;
+} 
+
 /* 3. Header */
 
 header {
