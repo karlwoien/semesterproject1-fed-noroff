@@ -320,21 +320,22 @@ span.orange {
 
 .visit {
     background-color: var(--light-blue);
-    padding-top: 10px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
     padding-bottom: 50px;
 }
 
-.visit h1 {
+.visit-container h1{
     text-align: center;
-    padding-top: 50px;
 }
 
 .visit-container {
-    margin: 30px;
     background-color: var(--dark-orange);
     color: var(--grey);
     border-radius: 10px;
-    padding-bottom: 90px;
+    padding-bottom: 100px;
+    padding-top: 20px;
 }
 
 .visit-grid {
