@@ -369,26 +369,57 @@ span.orange {
     padding: 30px 30px 80px;
 }
 
-.intro-explore {
+/*.intro-explore {
     display: grid;
-    align-items: center;
+    align-items: top;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     background-color: var(--grey);
     color: var(--dark-orange);
     border-radius: 10px;
     gap: 20px;
-    align-items: center;
 }
+*/
 
+.intro-explore {
+    background-image: linear-gradient(#ffffff96, #d3b69210), url(/assets/images/explore/explore-map-large.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: var(--grey);
+    color: var(--dark-orange);
+    border-radius: 10px;
+    height: 650px;
+    position: relative;
+    text-align: end;
+} /*gradient ispired by https://imagekit.io/blog/css-image-overlay/ */
+
+
+/*
 .picture-explore img{
-    max-width: 100%;
+    max-width: auto;
     height: auto;
     border-radius: 10px 0px 0px 10px;
 }
+*/
+
+.text-container {
+    background-color: var(--grey);
+    color: var(--dark-blue);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
 .text-explore {
-    text-align: center;
+    position: absolute;
+    width:85%;
+    top: 110px;
 }
+
+.text-explore p{
+    font-size: 24px;
+    color: var(--dark-blue);
+}
+
 
 .exhibit-flex {
     display: grid;
