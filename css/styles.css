@@ -78,6 +78,7 @@ address {
     display: none;
 } 
 
+
 /* 3. Header */
 
 header {
@@ -459,10 +460,14 @@ span.orange {
     padding-top: 20px;
  }
 
- .learn-cards {
+ .learn-container {
     background-color: var(--grey);
     border-radius: 10px;
  }
+
+ .learn-container h2{
+    font-size: 20px;
+}
  
  .learn-text {
   padding-left: 30px;
@@ -471,13 +476,14 @@ span.orange {
   padding-top: 30px;
  }
 
- .learn-image {
+ .learn-image  img{
     text-align: center;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0px 0px;
 }
 
- .learn-cards h2{
-    font-size: 20px;
-  }
+ 
 
 /* 14. Tickets */
 .tickets {
