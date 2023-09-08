@@ -488,7 +488,6 @@ span.orange {
 }
 
 .tickets h1 {
-    text-align: center;
     color: var(--dark-blue);
 }
 
@@ -505,7 +504,9 @@ span.orange {
 }
 
 .tickets-heading, 
-.tickets-cta {
+.tickets-cta,
+.tickets h1,
+.tickets-line {
     max-width: 700px;
     margin-left: auto;
     margin-right: auto;
@@ -514,12 +515,18 @@ span.orange {
 .tickets-line {
     display: grid;
     grid-template-columns: 1fr 0.4fr 0.4fr;
-    max-width: 700px;
-    margin-left: auto;
-    margin-right: auto;
+}
+
+.tickets-line label{
+    padding-top: 20px;
+}
+
+.tickets-line input{
+    text-align: center;
 }
 
 .tickets-cta {
+    max-width: 550px;
     text-align: right;
     padding-top: 40px;
 }
