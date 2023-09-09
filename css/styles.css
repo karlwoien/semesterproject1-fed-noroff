@@ -95,14 +95,28 @@ header {
     color: var(--dark-blue);
     }
 
+#menu-checkbox {
+    display: none;
+}
+    
+    
+.hamburger-icon {
+    display: none;
+}
+    
+nav {
+    display: block;
+    position: static;
+}
 
 nav a:hover{
     text-decoration: underline;
     }
 
-.logo-header {
-    
-    }
+.logo-header img {
+    max-width: 100%;
+    max-height: auto;
+}
 
 /* 4. Footer */
 
@@ -574,3 +588,25 @@ span.orange {
 }
 
 
+/* 15. Media */
+
+@media (max-width: 900px) {
+    /* styling hamburger menu*/
+    nav,
+    #menu-checkbox {
+    display: none;
+    }
+    .hamburger-icon {
+    display:block;
+    }
+    #menu-checkbox:checked ~ nav {
+    display: block;
+    padding-top:8px;
+    }
+    nav a {
+    display: block;
+    padding: 10px;
+    }
+    
+
+}
