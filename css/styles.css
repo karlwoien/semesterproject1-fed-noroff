@@ -601,11 +601,22 @@ span.orange {
     }
     #menu-checkbox:checked ~ nav {
     display: block;
+    background-color: var(--grey);
+    width: 250px;
     padding-top:8px;
+    padding-bottom: 50px;
+    padding-left: 20px;
     }
     nav a {
     display: block;
-    padding: 10px;
+    padding: 20px;
+    }
+    .button-purple {
+        max-width: 130px;
+    }
+    
+    .button-purple:hover {
+        max-width: 130px;
     }
     
 
