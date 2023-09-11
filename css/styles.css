@@ -368,7 +368,7 @@ span.orange {
     display: grid;
     align-items: center;
     grid-template-columns: repeat(auto-fit, minmax(450px, 1fr)); /*inspired by: https://css-tricks.com/look-ma-no-media-queries-responsive-layouts-using-css-grid/*/
-    padding-left: 100px;
+    padding-left: 7%;
 }
 
 .information-card {
@@ -383,7 +383,13 @@ span.orange {
 .text-visit{
     display: inline-block;
     padding-left: 20px;
-    max-width: 250px;
+    max-width: 300px;
+}
+
+.text-visit h2{
+    font-size: 22px;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    text-decoration: underline;
 }
 
 .text-visit p{
