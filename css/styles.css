@@ -250,7 +250,7 @@ address,
     padding-right: 30px;
     background-color: var(--dark-blue);
     opacity: 0.8;
-    color: var(--grey);
+    color: var(--white);
     border-radius: 10px;
 }
 
@@ -319,6 +319,8 @@ span.orange {
 .explore-container {
     position: relative;
     height: 400px;
+    background-color: var(--dark-blue);
+    border-radius: 10px;
 }
 
 .explore-container:hover {
