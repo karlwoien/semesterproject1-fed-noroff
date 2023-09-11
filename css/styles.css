@@ -329,7 +329,8 @@ span.orange {
 }
 
 .explore-container img {
-    height: 400px;
+    height: auto;
+    width: 300px;
 }
 
 .explore-container .p-bold {
@@ -337,6 +338,7 @@ span.orange {
     position: absolute;
     width: 100%;
     bottom: 10px;
+    font-size: 20px;
 }
 
 
