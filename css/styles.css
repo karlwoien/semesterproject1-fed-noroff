@@ -324,6 +324,7 @@ span.orange {
 .explore-container:hover {
     border: 2px solid;
     border-radius: 10px;
+    background-color: var(--black);
 }
 
 .explore-container img {
