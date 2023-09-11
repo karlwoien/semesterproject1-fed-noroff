@@ -27,7 +27,7 @@ Fordeling CSS
     --light-blue: #9BD7D1;
     --medium-blue: #325D79;
     --dark-blue: #19263D;
-    --black: #0000;
+    --black: #00000000;
     --white: #FFFF;
     --purple: #5931AD;
     }
@@ -240,12 +240,17 @@ address,
     justify-content: space-around;
     gap: 20px;
     padding: 50px 30px 100px;
+    position: relative;
 }
 
 .event-header {
     position: absolute;
-    left: 400px; /*løses på en annen måte? eventuelt legge over*/
+    top: 200px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: rgba(black, black, black, .8);
     color: var(--grey);
+    border-radius: 10px;
 }
 
 span.orange {
