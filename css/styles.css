@@ -331,11 +331,10 @@ span.orange {
 }
 
 .explore-container .p-bold {
-    color: var(--white);
+    color: var(--green);
     position: absolute;
     width: 100%;
     bottom: 10px;
-    background-color: var(--black);
 }
 
 
