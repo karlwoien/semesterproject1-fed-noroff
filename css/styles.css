@@ -372,7 +372,7 @@ span.orange {
 }
 
 .information-card {
-    height: 200px;
+    height: 250px;
 }
 
 .icon-visit{
@@ -383,12 +383,10 @@ span.orange {
 .text-visit{
     display: inline-block;
     padding-left: 20px;
-    max-width: 250px
+    max-width: 250px;
 }
 
-.text-visit p{
-    font-size: 20px;
-}
+
 
 
 /* 12. Explore */
