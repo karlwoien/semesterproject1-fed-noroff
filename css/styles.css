@@ -485,6 +485,7 @@ span.orange {
     background-color: var(--grey);
     border-radius: 10px;
     padding: 10px 30px 80px;
+    color: var(--dark-blue);
 }
 
 .learn-intro {
@@ -493,7 +494,7 @@ span.orange {
 
 .learn-intro h2{
     font-size: 32px;
-    color: var(--dark-orange);
+    color: var(--medium-blue);
  }
 
 .intro-text {
