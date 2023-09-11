@@ -192,7 +192,7 @@ address,
     border: 1px solid black;
 }
 
-.button-blue-dark {
+.button-blue-orange {
     padding: 10px 15px;
     font-size: 22px;
     font-family: 'Inter';
@@ -203,9 +203,9 @@ address,
     text-transform: uppercase;
 }
 
-.button-blue-dark:hover {
+.button-blue-orange:hover {
     background-color: var(--grey);
-    color: var(--dark-blue);
+    color: var(--dark-orange);
     text-decoration: none;
     border: 1px solid black;
 }
@@ -263,19 +263,21 @@ span.purple {
 }
 
 .event-wrapper {
-    width: 420px;
+    width: 500px;
     height: 860px;
     border: 1px solid;
+    border-color: var(--dark-blue);
     border-radius: 10px;
 }
 
 .event-wrapper:hover {
-    border: 2px solid;
+    border: 3px solid;
+    border-color: var(--purple);
     border-radius: 10px;
 }
 
 .event-wrapper img {
-    width: 420px;
+    width: 500px;
     height: 560px;
 }
 
@@ -285,13 +287,14 @@ span.purple {
     height: 220px;
 }
 
+.event-text h3{
+    font-size: 24px;
+}
+
 .event-text p{
     font-size: 18px;
 }
 
-.event-text .p-bold{
-    font-size: 24px;
-}
 
 .p-book {
     color: var(--purple);
@@ -330,12 +333,14 @@ span.purple {
 
 .explore-container:hover {
     border: 2px solid;
+    border-color: var(--dark-blue);
     border-radius: 10px;
 }
 
 .explore-container img {
-    height: auto;
+    height: 400px;
     width: 300px;
+    border-radius: 10px;
 }
 
 .explore-container h3 {
