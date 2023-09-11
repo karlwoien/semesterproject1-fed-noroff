@@ -137,7 +137,7 @@ address,
 .opening-hours,
 .logo-footer,
 .some-footer {
-    width: 220px;
+    width: 240px;
     height: 130px;
 }
 
@@ -187,7 +187,7 @@ address,
 
 .button-blue:hover {
     background-color: var(--grey);
-    color: var(--dark-orange);
+    color: var(--purple);
     text-decoration: none;
     border: 1px solid black;
 }
@@ -499,7 +499,7 @@ span.purple {
 
 .learn-intro h2{
     font-size: 32px;
-    color: var(--medium-blue);
+    color: var(--purple);
  }
 
 .intro-text {
