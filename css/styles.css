@@ -174,25 +174,25 @@ address,
     text-decoration: none;
 }
 
-.button-orange {
+.button-blue {
     padding: 10px 15px;
     font-size: 22px;
     font-family: 'Inter';
     text-align: center;
     color: var(--white);
     border-radius: 10px;
-    background-color: var(--dark-orange);
+    background-color: var(--medium-blue);
     text-transform: uppercase;
 }
 
-.button-orange:hover {
+.button-blue:hover {
     background-color: var(--grey);
-    color: var(--dark-orange);
+    color: var(--medium-blue);
     text-decoration: none;
     border: 1px solid black;
 }
 
-.button-blue {
+.button-blue-dark {
     padding: 10px 15px;
     font-size: 22px;
     font-family: 'Inter';
@@ -203,7 +203,7 @@ address,
     text-transform: uppercase;
 }
 
-.button-blue:hover {
+.button-blue-dark:hover {
     background-color: var(--grey);
     color: var(--dark-orange);
     text-decoration: none;
@@ -292,6 +292,7 @@ span.orange {
 .p-book {
     color: var(--purple);
     text-transform: uppercase;
+    font-weight: bold;
     text-align: right;
     padding-right: 10px;
 }
