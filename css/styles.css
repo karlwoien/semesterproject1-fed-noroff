@@ -405,17 +405,6 @@ span.orange {
     padding: 30px 30px 80px;
 }
 
-/*.intro-explore {
-    display: grid;
-    align-items: top;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    background-color: var(--grey);
-    color: var(--dark-orange);
-    border-radius: 10px;
-    gap: 20px;
-}
-*/
-
 .intro-explore {
     background-image: linear-gradient(#ffffff96, #d3b69210), url(/assets/images/explore/explore-map-large.jpg);
     background-repeat: no-repeat;
@@ -429,31 +418,24 @@ span.orange {
     text-align: end;
 } /*gradient ispired by https://imagekit.io/blog/css-image-overlay/ */
 
-
-/*
-.picture-explore img{
-    max-width: auto;
-    height: auto;
-    border-radius: 10px 0px 0px 10px;
-}
-*/
-
+/* Fjernes?
 .text-container {
     background-color: var(--grey);
     color: var(--dark-blue);
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+*/
 
 .text-explore {
     position: absolute;
     width:85%;
     top: 150px;
+    color: var(--dark-blue);
 }
 
 .text-explore p{
     font-size: 24px;
-    color: var(--dark-blue);
 }
 
 
