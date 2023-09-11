@@ -386,7 +386,9 @@ span.orange {
     max-width: 250px;
 }
 
-
+.text-visit p{
+    font-size: 20px;
+}
 
 
 /* 12. Explore */
