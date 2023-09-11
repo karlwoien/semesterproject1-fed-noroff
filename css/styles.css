@@ -319,18 +319,15 @@ span.orange {
 .explore-container {
     position: relative;
     height: 400px;
-    background-color: var(--black);
 }
 
 .explore-container:hover {
     border: 2px solid;
     border-radius: 10px;
-    background-color: var(--black);
 }
 
 .explore-container img {
     height: 400px;
-    background-color: var(--black);
 }
 
 .explore-container .p-bold {
@@ -338,6 +335,7 @@ span.orange {
     position: absolute;
     width: 100%;
     bottom: 10px;
+    background-color: var(--black);
 }
 
 
