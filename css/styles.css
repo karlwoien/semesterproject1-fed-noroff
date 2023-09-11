@@ -475,6 +475,11 @@ span.purple {
     padding-right: 20px;
 }
 
+.exhibit-text h2{
+    font-size: 20px;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
 .view-explore {
     padding-top: 80px;
     text-align: center;
