@@ -319,6 +319,7 @@ span.orange {
 .explore-container {
     position: relative;
     height: 400px;
+    background-color: var(--black);
 }
 
 .explore-container:hover {
