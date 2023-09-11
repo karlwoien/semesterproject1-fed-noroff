@@ -330,6 +330,7 @@ span.orange {
 
 .explore-container img {
     height: 400px;
+    background-color: var(--black);
 }
 
 .explore-container .p-bold {
