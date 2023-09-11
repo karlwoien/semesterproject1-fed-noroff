@@ -44,12 +44,12 @@ a {
 }
 
 h1, 
-h2,
-h3 {
+h2 {
 font-family: 'Bakbak One', Arial, Helvetica, sans-serif;
 font-size: 58px;
 }
 
+h3,
 p, 
 .p-bold, 
 nav, 
@@ -187,7 +187,7 @@ address,
 
 .button-blue:hover {
     background-color: var(--grey);
-    color: var(--medium-blue);
+    color: var(--dark-orange);
     text-decoration: none;
     border: 1px solid black;
 }
@@ -197,7 +197,7 @@ address,
     font-size: 22px;
     font-family: 'Inter';
     text-align: center;
-    color: var(--dark-blue);
+    color: var(--medium-blue);
     border-radius: 10px;
     background-color: var(--grey);
     text-transform: uppercase;
@@ -205,7 +205,7 @@ address,
 
 .button-blue-dark:hover {
     background-color: var(--grey);
-    color: var(--dark-orange);
+    color: var(--dark-blue);
     text-decoration: none;
     border: 1px solid black;
 }
@@ -256,6 +256,10 @@ address,
 
 span.orange {
     color: var(--dark-orange);
+}
+
+span.purple {
+    color: var(--purple);
 }
 
 .event-wrapper {
@@ -543,15 +547,17 @@ span.orange {
     padding-bottom: 80px;
     padding-left: 30px;
     padding-right: 30px;
-}
-
-.tickets h1 {
     color: var(--dark-blue);
 }
+
 
 .tickets h2{
     font-size: 30px;
-    color: var(--dark-blue);
+}
+
+.tickets h3{
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .tickets-info{
