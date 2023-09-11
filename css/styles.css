@@ -333,12 +333,13 @@ span.orange {
     width: 300px;
 }
 
-.explore-container .p-bold {
+.explore-container h3 {
     color: var(--white);
     position: absolute;
     width: 100%;
     bottom: 10px;
     font-size: 20px;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
 }
 
 
