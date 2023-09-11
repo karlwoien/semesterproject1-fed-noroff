@@ -223,7 +223,7 @@ address,
 
 .intro-home {
     background-color: var(--dark-orange);
-    color: var(--green);
+    color: var(--white);
     min-height: 80vh;
     text-align: center;
     text-transform: uppercase;
