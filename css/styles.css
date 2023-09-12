@@ -78,6 +78,13 @@ address {
     display: none;
 } 
 
+span.orange {
+    color: var(--dark-orange);
+}
+
+span.purple {
+    color: var(--purple);
+}
 
 /* 3. Header */
 
@@ -142,6 +149,7 @@ address,
     width: 240px;
     height: 130px;
 }
+
 
 /*6 cta */
 
@@ -254,14 +262,6 @@ address,
     opacity: 0.8;
     color: var(--white);
     border-radius: 10px;
-}
-
-span.orange {
-    color: var(--dark-orange);
-}
-
-span.purple {
-    color: var(--purple);
 }
 
 .event-wrapper {
@@ -614,6 +614,13 @@ span.purple {
 
 /* 15. Media */
 
+@media (max-width: 1083px) {
+    /* styling home*/
+    .event-header {
+        position: sticky;
+    } 
+}
+
 @media (max-width: 900px) {
     /* styling hamburger menu*/
     nav,
@@ -638,10 +645,10 @@ span.purple {
     .button-purple {
         max-width: 130px;
     }
-    
     .button-purple:hover {
         max-width: 130px;
     }
+
 }
 
 @media (max-width: 550px) {
@@ -650,21 +657,58 @@ span.purple {
     .intro-home-h1 {
         font-size: 42px;
     }
-    
     h2 {
         font-size: 36px;
     }
-    nav a {
-    
+
+    /* styling home */
+    .event-wrapper img {
+        width: 100%;
+        height: auto;
     }
+    .event-wrapper,
+    .event-text {
+        height: auto;
+    }
+
+    /* styling visit */
     .button-purple {
         
     }
-    
+
+    /* styling explore */
     .button-purple:hover {
         
     }
+    /* styling learn */
     {
         font-size: 42px;
+    }
+
+    /* styling tickets */
+    {
+        font-size: 42px;
+    }
+}
+
+@media (max-width: 300px) {
+    /* global*/
+    h1,
+    .intro-home-h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 28px;
+    }
+    /* styling home*/
+    .explore-container,
+    .explore-container img {
+        height: auto;
+        max-width: 100%;
+    }
+    .event-header {
+        padding-left: 0px;
+        padding-right: 0px;
+       
     }
 }
