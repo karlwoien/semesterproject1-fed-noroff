@@ -83,11 +83,6 @@ span.purple {
     color: var(--purple);
 }
 
-#active {
-    border-bottom: 2px solid;
-    border-color: var(--dark-blue);
-}
-
 /* 3. Header */
 
 header {
@@ -117,6 +112,11 @@ header {
 }
 
 nav a:hover{
+    border-bottom: 2px solid;
+    border-color: var(--dark-blue);
+}
+
+#active {
     border-bottom: 2px solid;
     border-color: var(--dark-blue);
 }
@@ -162,7 +162,7 @@ footer h2{
 .button-purple {
     padding: 10px 15px;
     text-align: center;
-    color: #fff;
+    color: var(--white);
     border-radius: 10px;
     background-color: var(--purple);
 }
