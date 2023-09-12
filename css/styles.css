@@ -151,6 +151,11 @@ address,
     height: 130px;
 }
 
+footer h2{
+    font-size: 18px;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
 
 /* 5 cta */
 
@@ -644,7 +649,6 @@ address,
         text-decoration: underline;
         border-bottom: none;
     }
-
 }
 
 @media (max-width: 550px) {
