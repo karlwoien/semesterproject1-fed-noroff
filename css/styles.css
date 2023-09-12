@@ -686,6 +686,10 @@ footer h2{
     }
 
     /* styling explore */
+    .intro-explore {
+        height: 700px;
+    }
+
     .explore {
         padding-left: 20px;
         padding-right: 20px;
