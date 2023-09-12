@@ -111,12 +111,14 @@ nav {
 
 nav a:hover{
     text-decoration: underline;
-    }
+}
 
 .logo-header img {
     max-width: 100%;
     max-height: auto;
 }
+
+
 
 /* 4. Footer */
 
@@ -640,6 +642,29 @@ span.purple {
     .button-purple:hover {
         max-width: 130px;
     }
-    
+}
 
+@media (max-width: 550px) {
+    /* styling global styles */
+    h1,
+    .intro-home-h1 {
+        font-size: 42px;
+    }
+    
+    h2 {
+        font-size: 36px;
+    }
+    nav a {
+    
+    }
+    .button-purple {
+        
+    }
+    
+    .button-purple:hover {
+        
+    }
+    {
+        font-size: 42px;
+    }
 }
