@@ -32,6 +32,7 @@ Fordeling CSS
 
 body {
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 a {
@@ -82,6 +83,11 @@ span.purple {
     color: var(--purple);
 }
 
+#active {
+    border-bottom: 2px solid;
+    border-color: var(--dark-blue);
+}
+
 /* 3. Header */
 
 header {
@@ -106,18 +112,13 @@ header {
     display: none;
 }
     
-    
 .hamburger-icon {
     display: none;
 }
-    
-nav {
-    display: block;
-    position: static;
-}
 
 nav a:hover{
-    text-decoration: underline;
+    border-bottom: 2px solid;
+    border-color: var(--dark-blue);
 }
 
 .logo-header img {
@@ -613,6 +614,7 @@ address,
     .hamburger-icon {
     display:block;
     }
+    
     #menu-checkbox:checked ~ nav {
     display: block;
     background-color: var(--grey);
