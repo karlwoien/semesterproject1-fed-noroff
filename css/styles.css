@@ -297,7 +297,6 @@ address,
     font-size: 18px;
 }
 
-
 .p-book {
     color: var(--purple);
     text-transform: uppercase;
@@ -672,8 +671,12 @@ address,
     }
 
     /* styling visit */
-    .button-purple {
-        
+    
+    .visit-grid {
+        display: block;
+    }
+    .information-card {
+    height: auto;
     }
 
     /* styling explore */
