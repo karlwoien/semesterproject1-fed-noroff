@@ -434,7 +434,6 @@ address,
     font-size: 24px;
 }
 
-
 .exhibit-flex {
     display: grid;
     align-items: center;
@@ -614,15 +613,19 @@ address,
     .hamburger-icon {
     display:block;
     }
-    
+   
     #menu-checkbox:checked ~ nav {
     display: block;
-    background-color: var(--grey);
-    width: 250px;
-    padding-top:8px;
+    position:absolute;
+    top: 168px;
+    left: 0px;
+    background-color: var(--light-orange);
+    width: 300px;
     padding-bottom: 50px;
     padding-left: 20px;
+    z-index: 1;
     }
+    
     nav a {
     display: block;
     padding: 20px;
@@ -632,6 +635,14 @@ address,
     }
     .button-purple:hover {
         max-width: 130px;
+    }
+    #active {
+        text-decoration: underline;
+        border-bottom: none;
+    }
+    nav a:hover{
+        text-decoration: underline;
+        border-bottom: none;
     }
 
 }
@@ -707,7 +718,7 @@ address,
     }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 320px) {
     /* global*/
     h1,
     .intro-home-h1 {
@@ -726,4 +737,10 @@ address,
         padding-left: 0px;
         padding-right: 0px;
     }
+    /* hamburger */
+    #menu-checkbox:checked ~ nav {
+        width: 180px;
+        top: 130px;
+        padding-left: 10px;
+        }
 }
