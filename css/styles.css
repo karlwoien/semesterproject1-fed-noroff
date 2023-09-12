@@ -4,17 +4,13 @@ Fordeling CSS
 2.  Global
 3.  Header
 4.  Footer
-5.  Typography
-6.  CTA
-7.  Color
-8.  Forms
-9.  Hamburger
-10. Home
-11. Visit
-12. Explore
-13. Learn
-14. Tickets
-15. media
+5.  CTA
+6. Home
+7. Visit
+8. Explore
+9. Learn
+10. Tickets
+11. media
 */
 
 /* 1. Variables */
@@ -102,6 +98,10 @@ header {
     color: var(--dark-blue);
     }
 
+.hamburger-icon {
+    display: none;
+}
+
 #menu-checkbox {
     display: none;
 }
@@ -151,7 +151,7 @@ address,
 }
 
 
-/*6 cta */
+/* 5 cta */
 
 .button-purple {
     padding: 10px 15px;
@@ -221,15 +221,7 @@ address,
 }
 
 
-/*9. hamburger */
-
-.hamburger-icon {
-        display: none;
-    }
-
-
-
-/* 10. Home */
+/* 6. Home */
 
 .intro-home {
     background-color: var(--dark-orange);
@@ -354,7 +346,7 @@ address,
 }
 
 
-/* 11. Visit */
+/* 7. Visit */
 
 .visit {
     background-color: var(--light-blue);
@@ -409,7 +401,7 @@ address,
 }
 
 
-/* 12. Explore */
+/* 8. Explore */
 
 .explore {
     background-color: var(--dark-blue);
@@ -479,7 +471,7 @@ address,
 }
 
 
-/* 13. Learn */
+/* 9. Learn */
 .learn {
     background-color: var(--light-blue);
     padding-top: 30px;
@@ -543,7 +535,7 @@ address,
 
  
 
-/* 14. Tickets */
+/* 10. Tickets */
 .tickets {
     background-color: var(--dark-orange);
     padding-top: 30px;
@@ -603,7 +595,7 @@ address,
 }
 
 
-/* 15. Media */
+/* 11. Media */
 
 @media (max-width: 1083px) {
     /* styling home*/
@@ -670,12 +662,33 @@ address,
     .information-card {
     height: auto;
     }
+    .visit {
+        padding-left: 20px;
+        padding-right: 20px;
+    
+    }
 
     /* styling explore */
+    .explore {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
     .text-explore {
         text-align: left;
         width:95%;
         padding-left: 20px;
+    }
+
+    /* styling learn */
+    .learn-intro h2{
+        font-size: 24px;
+     }
+
+    .learn {
+        background-color: var(--light-blue);
+        padding-left: 20px;
+        padding-right: 20px;
+
     }
 
     /* styling tickets */
@@ -710,6 +723,5 @@ address,
     .event-header {
         padding-left: 0px;
         padding-right: 0px;
-       
     }
 }
