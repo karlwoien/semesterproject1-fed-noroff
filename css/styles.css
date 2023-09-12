@@ -429,14 +429,6 @@ address,
     text-align: end;
 } /*gradient ispired by https://imagekit.io/blog/css-image-overlay/ */
 
-/* Fjernes?
-.text-container {
-    background-color: var(--grey);
-    color: var(--dark-blue);
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-*/
 
 .text-explore {
     position: absolute;
@@ -680,17 +672,23 @@ address,
     }
 
     /* styling explore */
-    .button-purple:hover {
-        
-    }
-    /* styling learn */
-    {
-        font-size: 42px;
+    .text-explore {
+        text-align: left;
+        width:95%;
+        padding-left: 20px;
     }
 
     /* styling tickets */
-    {
-        font-size: 42px;
+    .tickets {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .tickets-heading, 
+    .tickets-cta,
+    .tickets h1,
+    .tickets-line {
+        margin-left: 5px;
+        margin-right: 5px;
     }
 }
 
