@@ -5,10 +5,9 @@
     padding: 30px 30px 80px;
 }
 
-/*Intro part, hero and info */
+/*Section: Intro part, hero and info */
 .intro-explore {
     background-image: linear-gradient(#ffffff96, #d3b69210), url(/assets/images/explore/explore-map-large.jpg);
-    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-color: var(--grey);
@@ -30,8 +29,8 @@
     font-size: 24px;
 }
 
-/*The differendt exhbits */
-.exhibit-flex {
+/*Section: The differendt exhbits */
+.exhibit-grid {
     display: grid;
     align-items: center;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));

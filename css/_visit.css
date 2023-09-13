@@ -2,10 +2,7 @@
 
 .visit {
     background-color: var(--light-blue);
-    padding-top: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 50px;
+    padding: 30px 30px 50px;
 }
 
 .visit-container h1{
@@ -23,7 +20,7 @@
 .visit-grid {
     display: grid;
     align-items: center;
-    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr)); /*inspired by: https://css-tricks.com/look-ma-no-media-queries-responsive-layouts-using-css-grid/*/
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
     padding-left: 7%;
 }
 

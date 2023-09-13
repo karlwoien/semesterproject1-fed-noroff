@@ -1,12 +1,9 @@
 /* CSS file for styles regarding the learn-page */
 
-/*Intro part with info about UCSM */
+/*Section: Intro part with info about UCSM */
 .learn {
     background-color: var(--light-blue);
-    padding-top: 30px;
-    padding-bottom: 80px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 30px 30px 80px;
     gap: 20px;
 }
 
@@ -15,10 +12,7 @@
     border-radius: 10px;
     padding: 10px 30px 80px;
     color: var(--dark-blue);
-}
-
-.learn-intro {
-   text-align: center;
+    text-align: center;
 }
 
 .learn-intro h2{
@@ -33,7 +27,7 @@
     padding-bottom: 50px;
 }
 
-/*Part about the different fiels */
+/*Section: Part about the different fields */
 .learn-fields {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));

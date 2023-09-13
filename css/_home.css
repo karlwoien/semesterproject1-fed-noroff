@@ -1,6 +1,6 @@
 /*  CSS file for styles regarding the homepage */
 
-/*Intro section */
+/*Section: Intro home*/
 .intro-home {
     background-color: var(--dark-orange);
     color: var(--white);
@@ -9,11 +9,12 @@
     text-transform: uppercase;
     padding-top: 50px;
 }
+
 .intro-home h1 {
     font-size: 72px;
 }
 
-/*Event section */
+/*Section: Special events*/
 .special-events {
     background-color: var(--light-blue);
     display: flex;
@@ -46,7 +47,6 @@
 .event-container:hover {
     border: 3px solid;
     border-color: var(--purple);
-    border-radius: 10px;
 }
 
 .event-container img {
@@ -64,10 +64,6 @@
     font-size: 24px;
 }
 
-.event-text p{
-    font-size: 18px;
-}
-
 .p-book {
     color: var(--purple);
     text-transform: uppercase;
@@ -76,7 +72,7 @@
     padding-right: 10px;
 }
 
-/*Explore the Universe section */
+/*Section: Explore the Universe */
 .explore-universe {
     background-color: var(--grey);
     text-align: center;
@@ -106,7 +102,6 @@
 .explore-container:hover {
     border: 2px solid;
     border-color: var(--dark-blue);
-    border-radius: 10px;
 }
 
 .explore-container img {
