@@ -1,0 +1,27 @@
+/* 4. Footer */
+
+footer {
+    background-color: var(--medium-blue);
+    padding: 50px 0px 100px 30px;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+    color: var(--grey);
+}
+
+address,
+.opening-hours,
+.logo-footer,
+.some-footer {
+    width: 240px;
+    height: 130px;
+}
+
+footer h2{
+    font-size: 18px;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+}

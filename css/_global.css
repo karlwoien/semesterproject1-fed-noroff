@@ -1,0 +1,54 @@
+/* 2. Global */
+
+body {
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: var(--dark-blue);
+}
+
+h1, 
+h2 {
+font-family: 'Bakbak One', Arial, Helvetica, sans-serif;
+font-size: 58px;
+}
+
+h3,
+p, 
+.p-bold, 
+nav, 
+address {
+font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 18px;
+}
+
+.p-bold {
+    font-weight: bold;
+    }
+
+.p-bold-underline {
+        font-weight: bold;
+        text-decoration: underline;
+        }
+
+address {
+    font-style: normal;
+}
+
+.hidden-text {
+    display: none;
+} 
+
+span.orange {
+    color: var(--dark-orange);
+}
+
+span.purple {
+    color: var(--purple);
+}

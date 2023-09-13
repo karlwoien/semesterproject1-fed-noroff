@@ -1,0 +1,152 @@
+/* 11. Media */
+
+@media (max-width: 1083px) {
+    /* styling home*/
+    .event-header {
+        position: sticky;
+    } 
+}
+
+@media (max-width: 900px) {
+    /* styling hamburger menu*/
+    nav,
+    #menu-checkbox {
+    display: none;
+    }
+    .hamburger-icon {
+    display:block;
+    }
+   
+    #menu-checkbox:checked ~ nav {
+    display: block;
+    position:absolute;
+    top: 168px;
+    left: 0px;
+    background-color: var(--light-orange);
+    width: 300px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    z-index: 1;
+    }
+    
+    nav a {
+    display: block;
+    padding: 20px;
+    }
+    .button-purple {
+        max-width: 130px;
+    }
+    .button-purple:hover {
+        max-width: 130px;
+    }
+    #active {
+        text-decoration: underline;
+        border-bottom: none;
+    }
+    nav a:hover{
+        text-decoration: underline;
+        border-bottom: none;
+    }
+}
+
+@media (max-width: 550px) {
+    /* styling global styles */
+    h1,
+    .intro-home h1 {
+        font-size: 42px;
+    }
+    h2 {
+        font-size: 36px;
+    }
+
+    /* styling home */
+    .event-container img {
+        width: 100%;
+        height: auto;
+    }
+    .event-container,
+    .event-text {
+        height: auto;
+    }
+
+    /* styling visit */
+    
+    .visit-grid {
+        display: block;
+    }
+    .information-card {
+    height: auto;
+    }
+    .visit {
+        padding-left: 20px;
+        padding-right: 20px;
+    
+    }
+
+    /* styling explore */
+    .intro-explore {
+        height: 700px;
+    }
+
+    .explore {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .text-explore {
+        text-align: left;
+        width:95%;
+        padding-left: 20px;
+    }
+
+    /* styling learn */
+    .learn-intro h2{
+        font-size: 24px;
+     }
+
+    .learn {
+        background-color: var(--light-blue);
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+
+    /* styling tickets */
+    .tickets {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .tickets-heading, 
+    .tickets-cta,
+    .tickets h1,
+    .tickets-line {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
+@media (max-width: 320px) {
+    /* global*/
+    h1,
+    .intro-home h1{
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 28px;
+    }
+    /* styling home*/
+    .explore-container,
+    .explore-container img {
+        height: auto;
+        max-width: 100%;
+    }
+    .event-header {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    /* hamburger */
+    #menu-checkbox:checked ~ nav {
+        width: 180px;
+        top: 130px;
+        padding-left: 10px;
+        }
+}

@@ -1,0 +1,61 @@
+/* 9. Learn */
+.learn {
+    background-color: var(--light-blue);
+    padding-top: 30px;
+    padding-bottom: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
+    gap: 20px;
+}
+
+.learn-intro {
+    background-color: var(--grey);
+    border-radius: 10px;
+    padding: 10px 30px 80px;
+    color: var(--dark-blue);
+}
+
+.learn-intro {
+   text-align: center;
+}
+
+.learn-intro h2{
+    font-size: 32px;
+    color: var(--purple);
+ }
+
+.intro-text {
+    max-width: 1000px;
+    display: inline-block;
+    text-align: left;
+    padding-bottom: 50px;
+}
+.learn-fields {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding-top: 20px;
+ }
+
+ .learn-container {
+    background-color: var(--grey);
+    border-radius: 10px;
+ }
+
+ .learn-container h2{
+    font-size: 20px;
+}
+ 
+ .learn-text {
+  padding-left: 30px;
+  padding-right: 30px;  
+  padding-bottom: 30px;
+  padding-top: 30px;
+ }
+
+ .learn-image  img{
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0px 0px;
+}

@@ -1,0 +1,68 @@
+/* 5 cta */
+
+.button-purple {
+    padding: 10px 15px;
+    text-align: center;
+    color: var(--white);
+    border-radius: 10px;
+    background-color: var(--purple);
+}
+
+.button-purple:hover {
+    background-color: var(--grey);
+    color: var(--purple);
+    text-decoration: none;
+    border: 1px solid;
+}
+
+.button-white-purple {
+    padding: 10px 15px;
+    font-size: 22px;
+    font-family: 'Inter';
+    text-align: center;
+    color: var(--purple);
+    border-radius: 10px;
+    background-color: var(--grey);
+}
+
+.button-white-purple:hover {
+    background-color: var(--purple);
+    color: var(--grey);
+    text-decoration: none;
+}
+
+.button-blue {
+    padding: 10px 15px;
+    font-size: 22px;
+    font-family: 'Inter';
+    text-align: center;
+    color: var(--white);
+    border-radius: 10px;
+    background-color: var(--medium-blue);
+    text-transform: uppercase;
+}
+
+.button-blue:hover {
+    background-color: var(--grey);
+    color: var(--purple);
+    text-decoration: none;
+    border: 1px solid black;
+}
+
+.button-blue-orange {
+    padding: 10px 15px;
+    font-size: 22px;
+    font-family: 'Inter';
+    text-align: center;
+    color: var(--medium-blue);
+    border-radius: 10px;
+    background-color: var(--grey);
+    text-transform: uppercase;
+}
+
+.button-blue-orange:hover {
+    background-color: var(--grey);
+    color: var(--dark-orange);
+    text-decoration: none;
+    border: 1px solid black;
+}
