@@ -1,4 +1,4 @@
-/* 1. Variables */
+/* CSS file for variables - only variables goes here */
 
 :root {
     --light-orange: #F9A26C; 
@@ -11,4 +11,4 @@
     --black: #00000000;
     --white: #FFFF;
     --purple: #5931AD;
-    }
+}

@@ -1,4 +1,4 @@
-/* 11. Media */
+/* CSS file for media queries */
 
 @media (max-width: 1083px) {
     /* styling home*/
@@ -8,15 +8,16 @@
 }
 
 @media (max-width: 900px) {
-    /* styling hamburger menu*/
+    /* styling header-hamburger menu*/
     nav,
     #menu-checkbox {
     display: none;
     }
+
     .hamburger-icon {
     display:block;
     }
-   
+
     #menu-checkbox:checked ~ nav {
     display: block;
     position:absolute;
@@ -33,17 +34,14 @@
     display: block;
     padding: 20px;
     }
-    .button-purple {
-        max-width: 130px;
-    }
+
+    .button-purple,
     .button-purple:hover {
         max-width: 130px;
     }
-    #active {
-        text-decoration: underline;
-        border-bottom: none;
-    }
-    nav a:hover{
+
+    #active,
+    nav a:hover {
         text-decoration: underline;
         border-bottom: none;
     }
@@ -70,7 +68,6 @@
     }
 
     /* styling visit */
-    
     .visit-grid {
         display: block;
     }
@@ -80,14 +77,12 @@
     .visit {
         padding-left: 20px;
         padding-right: 20px;
-    
     }
 
     /* styling explore */
     .intro-explore {
         height: 700px;
     }
-
     .explore {
         padding-left: 20px;
         padding-right: 20px;
@@ -107,7 +102,6 @@
         background-color: var(--light-blue);
         padding-left: 20px;
         padding-right: 20px;
-
     }
 
     /* styling tickets */
@@ -143,7 +137,7 @@
         padding-left: 0px;
         padding-right: 0px;
     }
-    /* hamburger */
+    /* hamburger menu - header */
     #menu-checkbox:checked ~ nav {
         width: 180px;
         top: 130px;

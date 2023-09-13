@@ -1,4 +1,4 @@
-/* 3. Header */
+/*  CSS file for styles regarding the header */
 
 header {
     background-color: var(--light-orange);
@@ -14,23 +14,12 @@ header {
     color: var(--dark-blue);
     }
 
-.hamburger-icon {
-    display: none;
-}
-
+.hamburger-icon,
 #menu-checkbox {
     display: none;
 }
-    
-.hamburger-icon {
-    display: none;
-}
 
-nav a:hover{
-    border-bottom: 2px solid;
-    border-color: var(--dark-blue);
-}
-
+nav a:hover,
 #active {
     border-bottom: 2px solid;
     border-color: var(--dark-blue);

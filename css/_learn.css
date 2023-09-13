@@ -1,4 +1,6 @@
-/* 9. Learn */
+/* CSS file for styles regarding the learn-page */
+
+/*Intro part with info about UCSM */
 .learn {
     background-color: var(--light-blue);
     padding-top: 30px;
@@ -30,6 +32,8 @@
     text-align: left;
     padding-bottom: 50px;
 }
+
+/*Part about the different fiels */
 .learn-fields {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -47,10 +51,7 @@
 }
  
  .learn-text {
-  padding-left: 30px;
-  padding-right: 30px;  
-  padding-bottom: 30px;
-  padding-top: 30px;
+    padding: 30px;
  }
 
  .learn-image  img{

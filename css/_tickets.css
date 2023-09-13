@@ -1,13 +1,10 @@
-/* 10. Tickets */
+/* CSS file for styles regarding the tickets-page */
+
 .tickets {
     background-color: var(--dark-orange);
-    padding-top: 30px;
-    padding-bottom: 80px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 30px 30px 80px;
     color: var(--dark-blue);
 }
-
 
 .tickets h2{
     font-size: 30px;
@@ -46,7 +43,6 @@
 .tickets-line input{
     text-align: center;
     color: var(--dark-blue);
-    font-family: "Inter", Arial, Helvetica, sans-serif;
     font-size: 18px;
     height: 30px;
 }

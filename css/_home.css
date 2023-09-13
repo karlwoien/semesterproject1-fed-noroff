@@ -1,5 +1,6 @@
-/* 6. Home */
+/*  CSS file for styles regarding the homepage */
 
+/*Intro section */
 .intro-home {
     background-color: var(--dark-orange);
     color: var(--white);
@@ -12,6 +13,7 @@
     font-size: 72px;
 }
 
+/*Event section */
 .special-events {
     background-color: var(--light-blue);
     display: flex;
@@ -74,6 +76,7 @@
     padding-right: 10px;
 }
 
+/*Explore the Universe section */
 .explore-universe {
     background-color: var(--grey);
     text-align: center;
@@ -91,7 +94,6 @@
     gap: 20px;
     justify-content: space-around;
     padding: 0px 30px 80px;
-    
 }
 
 .explore-container {
@@ -119,5 +121,4 @@
     width: 100%;
     bottom: 10px;
     font-size: 20px;
-    font-family: 'Inter', Arial, Helvetica, sans-serif;
 }

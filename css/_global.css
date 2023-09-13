@@ -1,4 +1,4 @@
-/* 2. Global */
+/*  CSS file for global styling and layout -  things that apply to the whole site goes here */
 
 body {
     margin: 0;
@@ -12,16 +12,17 @@ a {
 
 h1, 
 h2 {
-font-family: 'Bakbak One', Arial, Helvetica, sans-serif;
-font-size: 58px;
+    font-family: 'Bakbak One', Arial, Helvetica, sans-serif;
+    font-size: 58px;
 }
 
 h3,
 p, 
 .p-bold, 
 nav, 
-address {
-font-family: 'Inter', Arial, Helvetica, sans-serif;
+address,
+input {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
 }
 
 p {
@@ -30,12 +31,7 @@ p {
 
 .p-bold {
     font-weight: bold;
-    }
-
-.p-bold-underline {
-        font-weight: bold;
-        text-decoration: underline;
-        }
+}
 
 address {
     font-style: normal;
