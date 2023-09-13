@@ -56,6 +56,13 @@
     h2 {
         font-size: 36px;
     }
+    .visit,
+    .explore,
+    .learn, 
+    .tickets {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 
     /* styling home */
     .event-container img {
@@ -74,19 +81,12 @@
     .information-card {
     height: auto;
     }
-    .visit {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
+    
     /* styling explore */
     .intro-explore {
         height: 700px;
     }
-    .explore {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
+    
     .text-explore {
         text-align: left;
         width:95%;
@@ -98,17 +98,7 @@
         font-size: 24px;
      }
 
-    .learn {
-        background-color: var(--light-blue);
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
     /* styling tickets */
-    .tickets {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
     .tickets-heading, 
     .tickets-cta,
     .tickets h1,
