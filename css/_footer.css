@@ -13,12 +13,13 @@ footer {
     color: var(--grey);
 }
 
-address,
-.opening-hours,
+
+.text-footer,
 .logo-footer,
 .some-footer {
     width: 240px;
     height: 130px;
+    font-size: 18px;
 }
 
 footer h2{
