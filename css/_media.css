@@ -58,6 +58,12 @@
         font-size: 36px;
     }
 
+    p,
+    .text-visit p,
+    address {
+        font-size: 16px;
+    }
+
     .visit,
     .explore,
     .learn, 
